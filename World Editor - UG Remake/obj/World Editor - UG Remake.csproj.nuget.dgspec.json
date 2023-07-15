@@ -1,17 +1,70 @@
 {
   "format": 1,
   "restore": {
-    "D:\\NFSURemake\\GitTools\\WorldEditor - UG1 Remake\\World Editor - UG Remake\\World Editor - UG Remake\\World Editor - UG Remake.csproj": {}
+    "D:\\NFSURemake\\GitTools\\WorldEditor-UG1Remake\\World Editor - UG Remake\\World Editor - UG Remake.csproj": {}
   },
   "projects": {
-    "D:\\NFSURemake\\GitTools\\WorldEditor - UG1 Remake\\World Editor - UG Remake\\World Editor - UG Remake\\World Editor - UG Remake.csproj": {
+    "D:\\NFSURemake\\GitTools\\WorldEditor-UG1Remake\\Core\\Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\NFSURemake\\GitTools\\WorldEditor - UG1 Remake\\World Editor - UG Remake\\World Editor - UG Remake\\World Editor - UG Remake.csproj",
-        "projectName": "World Editor - UG Remake",
-        "projectPath": "D:\\NFSURemake\\GitTools\\WorldEditor - UG1 Remake\\World Editor - UG Remake\\World Editor - UG Remake\\World Editor - UG Remake.csproj",
+        "projectUniqueName": "D:\\NFSURemake\\GitTools\\WorldEditor-UG1Remake\\Core\\Core.csproj",
+        "projectName": "Core",
+        "projectPath": "D:\\NFSURemake\\GitTools\\WorldEditor-UG1Remake\\Core\\Core.csproj",
         "packagesPath": "C:\\Users\\migue\\.nuget\\packages\\",
-        "outputPath": "D:\\NFSURemake\\GitTools\\WorldEditor - UG1 Remake\\World Editor - UG Remake\\World Editor - UG Remake\\obj\\",
+        "outputPath": "D:\\NFSURemake\\GitTools\\WorldEditor-UG1Remake\\Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\migue\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Users\\migue\\Desktop\\VaultBoy-master\\nupkgs": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\NFSURemake\\GitTools\\WorldEditor-UG1Remake\\World Editor - UG Remake\\World Editor - UG Remake.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\NFSURemake\\GitTools\\WorldEditor-UG1Remake\\World Editor - UG Remake\\World Editor - UG Remake.csproj",
+        "projectName": "World Editor - UG Remake",
+        "projectPath": "D:\\NFSURemake\\GitTools\\WorldEditor-UG1Remake\\World Editor - UG Remake\\World Editor - UG Remake.csproj",
+        "packagesPath": "C:\\Users\\migue\\.nuget\\packages\\",
+        "outputPath": "D:\\NFSURemake\\GitTools\\WorldEditor-UG1Remake\\World Editor - UG Remake\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\migue\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -26,7 +79,11 @@
         "frameworks": {
           "net6.0-windows7.0": {
             "targetAlias": "net6.0-windows",
-            "projectReferences": {}
+            "projectReferences": {
+              "D:\\NFSURemake\\GitTools\\WorldEditor-UG1Remake\\Core\\Core.csproj": {
+                "projectPath": "D:\\NFSURemake\\GitTools\\WorldEditor-UG1Remake\\Core\\Core.csproj"
+              }
+            }
           }
         },
         "warningProperties": {

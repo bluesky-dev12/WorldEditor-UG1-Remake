@@ -1,0 +1,13 @@
+
+*.json
+*.dll
+*.pdb
+*.props
+*.targets
+*.bak
+*.cache
+*.cache
+*.cache
+*.exe
+*.CopyComplete
+*.cache

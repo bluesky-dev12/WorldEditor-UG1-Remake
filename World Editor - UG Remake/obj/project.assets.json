@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net6.0-windows7.0": {}
+    "net6.0-windows7.0": {
+      "Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Core.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "Core/1.0.0": {
+      "type": "project",
+      "path": "../Core/Core.csproj",
+      "msbuildProject": "../Core/Core.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net6.0-windows7.0": []
+    "net6.0-windows7.0": [
+      "Core >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\migue\\.nuget\\packages\\": {}
@@ -13,11 +32,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\NFSURemake\\GitTools\\WorldEditor - UG1 Remake\\World Editor - UG Remake\\World Editor - UG Remake\\World Editor - UG Remake.csproj",
+      "projectUniqueName": "D:\\NFSURemake\\GitTools\\WorldEditor-UG1Remake\\World Editor - UG Remake\\World Editor - UG Remake.csproj",
       "projectName": "World Editor - UG Remake",
-      "projectPath": "D:\\NFSURemake\\GitTools\\WorldEditor - UG1 Remake\\World Editor - UG Remake\\World Editor - UG Remake\\World Editor - UG Remake.csproj",
+      "projectPath": "D:\\NFSURemake\\GitTools\\WorldEditor-UG1Remake\\World Editor - UG Remake\\World Editor - UG Remake.csproj",
       "packagesPath": "C:\\Users\\migue\\.nuget\\packages\\",
-      "outputPath": "D:\\NFSURemake\\GitTools\\WorldEditor - UG1 Remake\\World Editor - UG Remake\\World Editor - UG Remake\\obj\\",
+      "outputPath": "D:\\NFSURemake\\GitTools\\WorldEditor-UG1Remake\\World Editor - UG Remake\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\migue\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -32,7 +51,11 @@
       "frameworks": {
         "net6.0-windows7.0": {
           "targetAlias": "net6.0-windows",
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\NFSURemake\\GitTools\\WorldEditor-UG1Remake\\Core\\Core.csproj": {
+              "projectPath": "D:\\NFSURemake\\GitTools\\WorldEditor-UG1Remake\\Core\\Core.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
