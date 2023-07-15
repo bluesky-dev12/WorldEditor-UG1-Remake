@@ -4,9 +4,15 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Core.Tools
+namespace Compression
 {
-    internal class Comp
+    internal class COMP
     {
+        /* WIP
+        public static Span<byte> Decompress(ReadOnlySpan<byte> input)
+        {
+            //return Decompressor.Decompress(input);
+            
+        }*/
     }
 }

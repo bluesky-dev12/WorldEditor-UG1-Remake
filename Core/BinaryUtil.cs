@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Compression
+namespace Core
 {
-    internal class Huff
+    internal class BinaryUtil
     {
     }
 }

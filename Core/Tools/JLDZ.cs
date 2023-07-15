@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Compression
 {
-    internal class Huff
+    internal class JLDZ
     {
     }
 }

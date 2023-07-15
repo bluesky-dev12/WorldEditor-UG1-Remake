@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Text;
 
-namespace Common
+namespace Tools
 {
     public static class Hasher
     {
