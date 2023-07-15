@@ -1,0 +1,12 @@
+D:\NFSURemake\GitTools\WorldEditor-UG1Remake\Core\bin\x64\Debug\net6.0\Core.deps.json
+D:\NFSURemake\GitTools\WorldEditor-UG1Remake\Core\bin\x64\Debug\net6.0\Core.dll
+D:\NFSURemake\GitTools\WorldEditor-UG1Remake\Core\bin\x64\Debug\net6.0\Core.pdb
+D:\NFSURemake\GitTools\WorldEditor-UG1Remake\Core\obj\x64\Debug\net6.0\Core.csproj.AssemblyReference.cache
+D:\NFSURemake\GitTools\WorldEditor-UG1Remake\Core\obj\x64\Debug\net6.0\Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\NFSURemake\GitTools\WorldEditor-UG1Remake\Core\obj\x64\Debug\net6.0\Core.AssemblyInfoInputs.cache
+D:\NFSURemake\GitTools\WorldEditor-UG1Remake\Core\obj\x64\Debug\net6.0\Core.AssemblyInfo.cs
+D:\NFSURemake\GitTools\WorldEditor-UG1Remake\Core\obj\x64\Debug\net6.0\Core.csproj.CoreCompileInputs.cache
+D:\NFSURemake\GitTools\WorldEditor-UG1Remake\Core\obj\x64\Debug\net6.0\Core.dll
+D:\NFSURemake\GitTools\WorldEditor-UG1Remake\Core\obj\x64\Debug\net6.0\refint\Core.dll
+D:\NFSURemake\GitTools\WorldEditor-UG1Remake\Core\obj\x64\Debug\net6.0\Core.pdb
+D:\NFSURemake\GitTools\WorldEditor-UG1Remake\Core\obj\x64\Debug\net6.0\ref\Core.dll
