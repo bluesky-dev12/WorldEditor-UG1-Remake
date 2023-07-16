@@ -1,12 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Core.Chunks.Solids
+﻿namespace Core.Solids
 {
-    internal class SolidList
+    public class SolidList : BasicResource
     {
+        public string PipelinePath { get; set; }
+
+        public string Filename { get; set; }
+
+        public List<SolidObject> Objects { get; } = new List<SolidObject>();
     }
 }
