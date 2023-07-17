@@ -18,7 +18,7 @@ public class Chunk
 
     public uint PrePadding { get; set; }
 
-    //public BasicResource Resource { get; set; } -->WIP Bluesky
+    public BasicResource Resource { get; set; } 
 
     public List<Chunk> SubChunks { get; set; }
 }
