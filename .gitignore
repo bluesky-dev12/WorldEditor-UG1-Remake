@@ -29,3 +29,5 @@
 *.v2
 .vs/World Editor - UG Remake/v17/.suo
 *.v2
+*.lock
+.vs/WorldEditor-UG1Remake/v17/.suo
