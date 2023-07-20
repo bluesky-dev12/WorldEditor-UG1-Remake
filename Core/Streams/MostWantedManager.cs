@@ -1,6 +1,5 @@
 ﻿using System.Runtime.InteropServices;
 using Core.Streams.Data;
-using Core;
 
 namespace Core.Streams
 {
